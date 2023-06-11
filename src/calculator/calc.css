@@ -1,0 +1,80 @@
+#root{
+    background: #000;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 10px;
+}
+
+.myCalculator{
+    width: 315px;
+    border-radius: 12px;
+}
+
+.buttons{
+    display: inline-block;
+    margin: 23px 15px;
+}
+
+.btn{
+    background: #323232;
+    color: white;
+    padding: 5%;
+    border: 0px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+}
+.btn:focus{
+    background: white;
+    color: #323232;
+ }
+
+.btn-calc{
+    background: #A6A6A6;
+  
+}
+.btn-action{
+    background: #A6A6A6;
+    color: #323232;
+}
+
+.btn-0{
+    background: #323232;
+    color: white;
+    border: 0px;
+    margin: 5px;
+    padding: 5%;
+    width: 130px;
+    border-radius: 30px;
+    height: 60px;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+}
+.btn-0:focus{
+    background: white;
+    color: #323232;
+}
+.result{
+    width: 100%;
+    height: 62px;
+    margin-top: 30px;
+    background: #6c6c6ce0;
+}   
+
+.result p{
+    text-align: right;
+    font-size: 26px;
+    margin-bottom: 4px;
+    padding-top: 14px;
+    padding-right: 10px;
+
+}
+
+#equalBtn{
+background-color: orange;
+}
